@@ -1,6 +1,4 @@
 SELECT *
-INTO cash_flows_ttm_and_quarter
-FROM ttm_cash_flow
+INTO ttm_cash_flow
+FROM cash_flows_ttm_and_quarter
 WHERE date = 'TTM 2024-10-01';
-
-
