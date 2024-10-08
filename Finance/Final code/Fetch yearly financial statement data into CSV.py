@@ -1,17 +1,23 @@
 import yfinance as yf
 import pandas as pd
 
-# Define the list of S&P 500 tickers (replace with your actual tickers)
+# Define the list of S&P 500 tickers
 tickers = [
-    'AAPL', 'MSFT', 'GOOGL',  # Add all your tickers here
+    'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'BRK-B', 'META', 'TSLA', 'UNH', 'JNJ',
+    'V', 'XOM', 'PG', 'LLY', 'MA', 'HD', 'CVX', 'MRK', 'ABBV', 'PEP', 'KO', 'PFE', 
+    'AVGO', 'COST', 'TMO', 'MCD', 'WMT', 'CSCO', 'ACN', 'ABT', 'DHR', 'NFLX', 'LIN',
+    'VZ', 'ADBE', 'NKE', 'TXN', 'CRM', 'NEE', 'PM', 'BMY', 'COP', 'QCOM', 'HON',
+    'MS', 'ORCL', 'RTX', 'INTC', 'AMGN', 'SPGI', 'IBM', 'GS', 'CAT', 'BLK', 'UPS',
+    'MDT', 'SCHW', 'UNP', 'DE', 'LOW', 'GILD', 'CVS', 'SBUX', 'INTU', 'NOW', 'PLD',
+    'AXP', 'MO', 'BKNG', 'T', 'ISRG', 'MMC', 'EL', 'LMT', 'SYK', 'BA', 'ADP', 'MDLZ',
+    'ZTS', 'GE', 'AMT', 'TMUS', 'MU', 'PYPL', 'C', 'CI', 'CB', 'APD', 'F', 'MRNA',
+    'EQIX', 'ICE', 'GM', 'EW', 'DUK', 'SO', 'REGN', 'PGR', 'HUM', 'PSA'
 ]
 
-# Initialize empty DataFrames to store the yearly data
 yearly_cash_flow_data = pd.DataFrame()
 yearly_income_statement_data = pd.DataFrame()
 yearly_balance_sheet_data = pd.DataFrame()
 
-# Loop through each ticker
 for ticker in tickers:
     print(f'Fetching yearly financial data for {ticker}...')
     try:
@@ -66,7 +72,6 @@ yearly_cash_flow_data.columns = yearly_cash_flow_data.columns.str.lower().str.re
 yearly_income_statement_data.columns = yearly_income_statement_data.columns.str.lower().str.replace(' ', '_')
 yearly_balance_sheet_data.columns = yearly_balance_sheet_data.columns.str.lower().str.replace(' ', '_')
 
-# Save the DataFrames to CSV files
 yearly_cash_flow_data.to_csv('yearly_cash_flow_data.csv', index=False)
 yearly_income_statement_data.to_csv('yearly_income_statement_data.csv', index=False)
 yearly_balance_sheet_data.to_csv('yearly_balance_sheet_data.csv', index=False)
