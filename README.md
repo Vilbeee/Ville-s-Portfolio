@@ -1,7 +1,7 @@
 # Ville's Portfolio
 Data Analytics Portfolio
 
-# [S&P500: Stock Data Cleaning and vizualization]
+# [S&P500: Stock Data Cleaning & Dashboard Creation]
 
 This is a project I did with the intention of creating a PowerBI dashboard, which would be useful for comparing stock.
 
