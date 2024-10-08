@@ -3,7 +3,7 @@ Data Analytics Portfolio
 
 # [S&P500: Stock Data Cleaning & Dashboard Creation]
 
-This is a project I did with the intention of creating a PowerBI dashboard, which would be useful for comparing stock.
+This is a project I did with the intention of creating a PowerBI dashboard, which would be useful for comparing stocks.
 
 * Data was fetched using Python with the help of ChatGPT.
 * Fetched data was cleaned and organized using SQL and Excel.
