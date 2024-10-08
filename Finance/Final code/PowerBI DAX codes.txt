@@ -1,4 +1,4 @@
-Date table:
+Creating a Date Table:
 
 Date = 
 ADDCOLUMNS(
@@ -9,7 +9,7 @@ ADDCOLUMNS(
     "Quarter", FORMAT ( [Date], "\QQ" )
 )
 
-5Y Change % Adjusted Close
+Calculating 5 Year Change % Adjusted Close:
 
 Total Start Adjusted Close = 
 CALCULATE(
@@ -30,7 +30,7 @@ DIVIDE(
     0
 )
 
-Company with the best/lowest P/E-Ratio
+Finding the Company With the Best/Lowest P/E-Ratio
 
 Best P/E-Ratio = 
 MINX(
@@ -51,7 +51,7 @@ RETURN
         )
     )
 
-Highest Dividend:
+Calculating the Highest Dividend of the Previous Quarter:
 
 Highest Dividend From The Previous Quarter = 
 CALCULATE(
@@ -63,7 +63,7 @@ CALCULATE(
     )
 )
 
-Highest Current Forward Dividend Yield:
+Calculating the Highest Current Forward Dividend Yield:
 
 Highest Forward Dividend Yield = 
 CALCULATE(
@@ -75,7 +75,7 @@ CALCULATE(
     )
 )
 
-Lowest positive D/E-Ratio
+Calculating the Lowest positive D/E-Ratio
 
 Lowest positive D/E-Ratio = 
 MINX(
@@ -85,7 +85,7 @@ MINX(
     ), 
     'DE-Ratio'[de_ratio])
 
-Debt Ratio:
+Calculating Debt Ratio:
 
 Debt Ratio = 
 VAR TotalDebt = 
