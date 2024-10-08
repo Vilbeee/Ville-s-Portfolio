@@ -4,7 +4,7 @@ This is a project I did with the intention of creating a Power BI dashboard, whi
 
 ### Why this project?
 
-As I recently graduated with a master's degree in economics and I wanted to create a project, which would showcase my skills with different data analysis programs such  as SQL, Excel and PowerBI. In addition working with stock data correlated to my personal interests in investing and would also showcase my ability to read and understand companies' financial statements.
+As I recently graduated with a master's degree in economics, I wanted to create a project, which would showcase my skills with different data analysis programs such as SQL, Excel and PowerBI. In addition, working with stock data correlated to my personal interests regarding investing and it would also showcase my ability to read and understand companies' financial statements.
 
 ### Steps followed
 
