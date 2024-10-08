@@ -55,11 +55,11 @@ Calculating the Highest Dividend of the Previous Quarter:
 
 Highest Dividend From The Previous Quarter = 
 CALCULATE(
-    MAX('Dividends'[Dividend]),  -- Ensure 'Dividend' matches your actual column name
+    MAX('Dividends'[Dividend]),
     FILTER(
         'Dividends',
         RELATED('Date'[date]) >= DATE(2024, 7, 1) && 
-        RELATED('Date'[date]) <= DATE(2024, 10, 1)  -- Filter for the date range
+        RELATED('Date'[date]) <= DATE(2024, 10, 1)
     )
 )
 
