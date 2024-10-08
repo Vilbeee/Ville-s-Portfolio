@@ -143,7 +143,7 @@ WHERE date BETWEEN '2024-05-31' AND '2024-07-31';
 
 * Step 4: Move data to PowerBI and make sure the datatypes and NULL values are correct
 
-Example 1: This image is from Excel Power Query, but it showcases common problems in the transition from SQL to Power BI. Saving files as CSV can lead to headers not being saved, unless a setting is toggled on. The nulls are in the form of NULL and Power Query doesnt detect them. Data needs to be detected after all of these problems have been taken care of.
+Example 1: This image is from Excel Power Query, but it showcases common problems in the transition from SQL to Power BI. Saving files as CSV can lead to headers not being saved, unless a setting is toggled on. The nulls are in the form of NULL and Power Query doesn't detect them. Data needs to be detected after all of these problems have been taken care of.
 
 ![Detecting the right data type](https://github.com/user-attachments/assets/f33cc5ae-7601-454e-8bee-b33d2dab3398)
 
@@ -238,7 +238,7 @@ Example 4: I included a synced dropdown slicer for sectors to quickly and easily
 
 ![Dropdown slicer](https://github.com/user-attachments/assets/da0a0682-a90a-4e71-b176-2b20b4ff9ec1)
 
-Example 5: I included a tooltip with the company information whenever hovered on graphs. This way one doesnt have to remember each and every company's tickers. 
+Example 5: I included a tooltip with the company information whenever hovered on graphs. This way one doesn't have to remember each and every company's tickers. 
 
 ![Company information tooltip](https://github.com/user-attachments/assets/a9bf479a-1696-4e8f-b4c8-b085e7a5f123)
 
