@@ -9,3 +9,5 @@ This is a project I did with the intention of creating a PowerBI dashboard, whic
 * Fetched data was cleaned and organized using SQL and Excel.
 * In addition SQL queries were used for calculating financial ratios such as P/E and D/E.
 * PowerBI was used for vizualising data and creating an environment for quick and easy comparison. 
+
+# More to come
