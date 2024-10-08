@@ -1,0 +1,105 @@
+﻿Column1;shortName;marketCap;sector;industry
+AAPL;Apple Inc.;3,46334E+12;Technology;Consumer Electronics
+MSFT;Microsoft Corporation;3,18149E+12;Technology;Software - Infrastructure
+GOOGL;Alphabet Inc.;2,0257E+12;Communication Services;Internet Content & Information
+AMZN;Amazon.com, Inc.;1,97286E+12;Consumer Cyclical;Internet Retail
+NVDA;NVIDIA Corporation;2,97794E+12;Technology;Semiconductors
+BRK-B;Berkshire Hathaway Inc. New;9,85857E+11;Financial Services;Insurance - Diversified
+META;Meta Platforms, Inc.;1,43532E+12;Communication Services;Internet Content & Information
+TSLA;Tesla, Inc.;8,32076E+11;Consumer Cyclical;Auto Manufacturers
+UNH;UnitedHealth Group Incorporated;5,37291E+11;Healthcare;Healthcare Plans
+JNJ;Johnson & Johnson;3,88529E+11;Healthcare;Drug Manufacturers - General
+V;Visa Inc.;5,35448E+11;Financial Services;Credit Services
+XOM;Exxon Mobil Corporation;5,14569E+11;Energy;Oil & Gas Integrated
+PG;Procter & Gamble Company (The);4,07792E+11;Consumer Defensive;Household & Personal Products
+LLY;Eli Lilly and Company;7,90385E+11;Healthcare;Drug Manufacturers - General
+MA;Mastercard Incorporated;4,56042E+11;Financial Services;Credit Services
+HD;Home Depot, Inc. (The);3,9685E+11;Consumer Cyclical;Home Improvement Retail
+CVX;Chevron Corporation;2,64028E+11;Energy;Oil & Gas Integrated
+MRK;Merck & Company, Inc.;2,88183E+11;Healthcare;Drug Manufacturers - General
+ABBV;AbbVie Inc.;3,44065E+11;Healthcare;Drug Manufacturers - General
+PEP;Pepsico, Inc.;2,33507E+11;Consumer Defensive;Beverages - Non-Alcoholic
+KO;Coca-Cola Company (The);3,09406E+11;Consumer Defensive;Beverages - Non-Alcoholic
+PFE;Pfizer, Inc.;1,64844E+11;Healthcare;Drug Manufacturers - General
+AVGO;Broadcom Inc.;8,06562E+11;Technology;Semiconductors
+COST;Costco Wholesale Corporation;3,92441E+11;Consumer Defensive;Discount Stores
+TMO;Thermo Fisher Scientific Inc;2,34706E+11;Healthcare;Diagnostics & Research
+MCD;McDonald's Corporation;2,1785E+11;Consumer Cyclical;Restaurants
+WMT;Walmart Inc.;6,41292E+11;Consumer Defensive;Discount Stores
+CSCO;Cisco Systems, Inc.;2,11588E+11;Technology;Communication Equipment
+ACN;Accenture plc;2,18912E+11;Technology;Information Technology Services
+ABT;Abbott Laboratories;1,95617E+11;Healthcare;Medical Devices
+DHR;Danaher Corporation;1,98926E+11;Healthcare;Diagnostics & Research
+NFLX;Netflix, Inc.;3,0357E+11;Communication Services;Entertainment
+LIN;Linde plc;2,28967E+11;Basic Materials;Specialty Chemicals
+VZ;Verizon Communications Inc.;1,88965E+11;Communication Services;Telecom Services
+ADBE;Adobe Inc.;2,26914E+11;Technology;Software - Infrastructure
+NKE;Nike, Inc.;1,34103E+11;Consumer Cyclical;Footwear & Accessories
+TXN;Texas Instruments Incorporated;1,90954E+11;Technology;Semiconductors
+CRM;Salesforce, Inc.;2,64468E+11;Technology;Software - Application
+NEE;NextEra Energy, Inc.;1,73759E+11;Utilities;Utilities - Regulated Electric
+PM;Philip Morris International Inc;1,8754E+11;Consumer Defensive;Tobacco
+BMY;Bristol-Myers Squibb Company;1,03215E+11;Healthcare;Drug Manufacturers - General
+COP;ConocoPhillips;1,21606E+11;Energy;Oil & Gas E&P
+QCOM;QUALCOMM Incorporated;1,89525E+11;Technology;Semiconductors
+HON;Honeywell International Inc.;1,34891E+11;Industrials;Conglomerates
+MS;Morgan Stanley;1,68435E+11;Financial Services;Capital Markets
+ORCL;Oracle Corporation;4,67589E+11;Technology;Software - Infrastructure
+RTX;RTX Corporation;1,60148E+11;Industrials;Aerospace & Defense
+INTC;Intel Corporation;1,02239E+11;Technology;Semiconductors
+AMGN;Amgen Inc.;1,7338E+11;Healthcare;Drug Manufacturers - General
+SPGI;S&P Global Inc.;1,60481E+11;Financial Services;Financial Data & Stock Exchanges
+IBM;International Business Machines;2,03426E+11;Technology;Information Technology Services
+GS;Goldman Sachs Group, Inc. (The);1,57429E+11;Financial Services;Capital Markets
+CAT;Caterpillar, Inc.;1,89634E+11;Industrials;Farm & Heavy Construction Machinery
+BLK;BlackRock, Inc.;1,40012E+11;Financial Services;Asset Management
+UPS;United Parcel Service, Inc.;1,15004E+11;Industrials;Integrated Freight & Logistics
+MDT;Medtronic plc.;1,14562E+11;Healthcare;Medical Devices
+SCHW;Charles Schwab Corporation (The;1,17846E+11;Financial Services;Capital Markets
+UNP;Union Pacific Corporation;1,48778E+11;Industrials;Railroads
+DE;Deere & Company;1,14365E+11;Industrials;Farm & Heavy Construction Machinery
+LOW;Lowe's Companies, Inc.;1,51547E+11;Consumer Cyclical;Home Improvement Retail
+GILD;Gilead Sciences, Inc.;1,04094E+11;Healthcare;Drug Manufacturers - General
+CVS;CVS Health Corporation;77214818304;Healthcare;Healthcare Plans
+SBUX;Starbucks Corporation;1,10328E+11;Consumer Cyclical;Restaurants
+INTU;Intuit Inc.;1,73509E+11;Technology;Software - Application
+NOW;ServiceNow, Inc.;1,81523E+11;Technology;Software - Application
+PLD;Prologis, Inc.;1,16285E+11;Real Estate;REIT - Industrial
+AXP;American Express Company;1,927E+11;Financial Services;Credit Services
+MO;Altria Group, Inc.;87102529536;Consumer Defensive;Tobacco
+BKNG;Booking Holdings Inc. Common St;1,42415E+11;Consumer Cyclical;Travel Services
+T;AT&T Inc.;1,57028E+11;Communication Services;Telecom Services
+ISRG;Intuitive Surgical, Inc.;1,70279E+11;Healthcare;Medical Instruments & Supplies
+MMC;Marsh & McLennan Companies, Inc;1,10124E+11;Financial Services;Insurance Brokers
+EL;Estee Lauder Companies, Inc. (T;35850735616;Consumer Defensive;Household & Personal Products
+LMT;Lockheed Martin Corporation;1,3881E+11;Industrials;Aerospace & Defense
+SYK;Stryker Corporation;1,3729E+11;Healthcare;Medical Devices
+BA;Boeing Company (The);96327983104;Industrials;Aerospace & Defense
+ADP;Automatic Data Processing, Inc.;1,11288E+11;Technology;Software - Application
+MDLZ;Mondelez International, Inc.;99116359680;Consumer Defensive;Confectioners
+ZTS;Zoetis Inc.;88258863104;Healthcare;Drug Manufacturers - Specialty & Generic
+GE;GE Aerospace;2,01009E+11;Industrials;Aerospace & Defense
+AMT;American Tower Corporation (REI;1,07578E+11;Real Estate;REIT - Specialty
+TMUS;T-Mobile US, Inc.;2,394E+11;Communication Services;Telecom Services
+MU;Micron Technology, Inc.;1,192E+11;Technology;Semiconductors
+PYPL;PayPal Holdings, Inc.;79619055616;Financial Services;Credit Services
+C;Citigroup, Inc.;1,18036E+11;Financial Services;Banks - Diversified
+CI;The Cigna Group;97199185920;Healthcare;Healthcare Plans
+CB;Chubb Limited;1,16967E+11;Financial Services;Insurance - Property & Casualty
+APD;Air Products and Chemicals, Inc;66774228992;Basic Materials;Specialty Chemicals
+F;Ford Motor Company;42853191680;Consumer Cyclical;Auto Manufacturers
+MRNA;Moderna, Inc.;25274036224;Healthcare;Biotechnology
+EQIX;Equinix, Inc.;83807002624;Real Estate;REIT - Specialty
+ICE;Intercontinental Exchange Inc.;91070406656;Financial Services;Financial Data & Stock Exchanges
+GM;General Motors Company;52239802368;Consumer Cyclical;Auto Manufacturers
+EW;Edwards Lifesciences Corporatio;40107794432;Healthcare;Medical Devices
+DUK;Duke Energy Corporation (Holdin;89552265216;Utilities;Utilities - Regulated Electric
+SO;Southern Company (The);98620751872;Utilities;Utilities - Regulated Electric
+REGN;Regeneron Pharmaceuticals, Inc.;1,14941E+11;Healthcare;Biotechnology
+PGR;Progressive Corporation (The);1,47094E+11;Financial Services;Insurance - Property & Casualty
+HUM;Humana Inc.;38476869632;Healthcare;Healthcare Plans
+PSA;Public Storage;62418423808;Real Estate;REIT - Industrial
+;;;;
+;;;;
+;;;;
+;;;;

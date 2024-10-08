@@ -1,0 +1,107 @@
+Creating a Date table:
+
+Date = 
+ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Year", YEAR ( [Date]),
+    "Month", FORMAT ( [Date], "mmmm" ),
+    "Month Number", MONTH ( [Date] ),
+    "Quarter", FORMAT ( [Date], "\QQ" )
+)
+
+Calculating the 5 Year Change % of Adjusted Close:
+
+Total Start Adjusted Close = 
+CALCULATE(
+    SUM('Historical Stock Data'[adjusted_close]),
+    FILTER('Historical Stock Data', 'Historical Stock Data'[date] = DATE(2019, 10, 2))
+)
+
+Total End Adjusted Close = 
+CALCULATE(
+    SUM('Historical Stock Data'[adjusted_close]),
+    FILTER('Historical Stock Data', 'Historical Stock Data'[date] = DATE(2024, 9, 30)
+))
+
+5 Year Change = 
+DIVIDE(
+    [Total End Adjusted Close] - [Total Start Adjusted Close],
+    [Total Start Adjusted Close],
+    0
+)
+
+Calculating the Company With the Best/Lowest P/E-Ratio
+
+Best P/E-Ratio = 
+MINX(
+    FILTER(
+        'PE-Ratio', 
+        'PE-Ratio'[pe_ratio] > 0
+    ), 
+    'PE-Ratio'[pe_ratio])
+
+Company With The Best P/E-Ratio = 
+VAR MinPE = [Best P/E-Ratio]
+RETURN
+    CALCULATE(
+        FIRSTNONBLANK('Companies'[Company Name], 1),
+        FILTER(
+            'PE-Ratio',
+            'PE-Ratio'[pe_ratio] = MinPE
+        )
+    )
+
+Calculating the Highest Dividend of the Previous Quarter:
+
+Highest Dividend From The Previous Quarter = 
+CALCULATE(
+    MAX('Dividends'[Dividend]),  -- Ensure 'Dividend' matches your actual column name
+    FILTER(
+        'Dividends',
+        RELATED('Date'[date]) >= DATE(2024, 7, 1) && 
+        RELATED('Date'[date]) <= DATE(2024, 10, 1)  -- Filter for the date range
+    )
+)
+
+Calculating the Highest Current Forward Dividend Yield:
+
+Highest Forward Dividend Yield = 
+CALCULATE(
+    MAX('Forward Dividend Yield'[forward_dividend_yield]),
+    FILTER(
+        'Forward Dividend Yield',
+        RELATED('Date'[date]) >= DATE(2024, 9, 30) && 
+        RELATED('Date'[date]) <= DATE(2024, 10, 1)
+    )
+)
+
+Calculating the Lowest positive D/E-Ratio
+
+Lowest positive D/E-Ratio = 
+MINX(
+    FILTER(
+        'DE-Ratio', 
+        'DE-Ratio'[de_ratio] > 0
+    ), 
+    'DE-Ratio'[de_ratio])
+
+Calculating Debt Ratio:
+
+Debt Ratio = 
+VAR TotalDebt = 
+    CALCULATE(
+        SUM('Quarterly Balance Sheet'[total_debt]),
+        'Quarterly Balance Sheet'[date] >= DATE(2024, 5, 31) &&
+        'Quarterly Balance Sheet'[date] <= DATE(2024, 7, 31)
+    )
+
+VAR TotalAssets = 
+    CALCULATE(
+        SUM('Quarterly Balance Sheet'[total_assets]),
+        'Quarterly Balance Sheet'[date] >= DATE(2024, 5, 31) &&
+        'Quarterly Balance Sheet'[date] <= DATE(2024, 7, 31)
+    )
+
+RETURN 
+    IF(TotalAssets <> 0, TotalDebt / TotalAssets, BLANK())
+
