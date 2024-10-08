@@ -10,14 +10,13 @@ tickers = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'BRK-B', 'META', 'TSLA', 'UN
     'MDT', 'SCHW', 'UNP', 'DE', 'LOW', 'GILD', 'CVS', 'SBUX', 'INTU', 'NOW', 'PLD',
     'AXP', 'MO', 'BKNG', 'T', 'ISRG', 'MMC', 'EL', 'LMT', 'SYK', 'BA', 'ADP', 'MDLZ',
     'ZTS', 'GE', 'AMT', 'TMUS', 'MU', 'PYPL', 'C', 'CI', 'CB', 'APD', 'F', 'MRNA',
-    'EQIX', 'ICE', 'GM', 'EW', 'DUK', 'SO', 'REGN', 'PGR', 'HUM', 'PSA']  # Replace with your tickers
+    'EQIX', 'ICE', 'GM', 'EW', 'DUK', 'SO', 'REGN', 'PGR', 'HUM', 'PSA'] 
 start_date = "2019-10-01"
 end_date = "2024-10-01"
 
-# Initialize an empty DataFrame for the combined data
+a
 combined_data = pd.DataFrame()
 
-# Loop over each ticker to fetch the data and calculate TTM dividend yield
 for ticker_symbol in tickers:
     # Fetch historical stock data
     stock_data = yf.download(ticker_symbol, start=start_date, end=end_date, interval="1d")
@@ -26,12 +25,10 @@ for ticker_symbol in tickers:
     stock = yf.Ticker(ticker_symbol)
     dividends = stock.dividends[start_date:end_date]
 
-    # Convert dividends data to a DataFrame and remove timezone info
     dividends_df = dividends.reset_index()
     dividends_df.columns = ['Date', 'Dividends']
     dividends_df['Date'] = pd.to_datetime(dividends_df['Date']).dt.tz_localize(None)
 
-    # Remove timezone info from stock data
     stock_data.reset_index(inplace=True)
     stock_data['Date'] = stock_data['Date'].dt.tz_localize(None)
 
