@@ -1,7 +1,7 @@
 import yfinance as yf
 import pandas as pd
 
-# Define the list of S&P 500 tickers (replace with your actual tickers)
+# Define the list of tickers
 tickers = [
     'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'NVDA', 'BRK-B', 'META', 'TSLA', 'UNH', 'JNJ',
     'V', 'XOM', 'PG', 'LLY', 'MA', 'HD', 'CVX', 'MRK', 'ABBV', 'PEP', 'KO', 'PFE', 
@@ -11,16 +11,15 @@ tickers = [
     'MDT', 'SCHW', 'UNP', 'DE', 'LOW', 'GILD', 'CVS', 'SBUX', 'INTU', 'NOW', 'PLD',
     'AXP', 'MO', 'BKNG', 'T', 'ISRG', 'MMC', 'EL', 'LMT', 'SYK', 'BA', 'ADP', 'MDLZ',
     'ZTS', 'GE', 'AMT', 'TMUS', 'MU', 'PYPL', 'C', 'CI', 'CB', 'APD', 'F', 'MRNA',
-    'EQIX', 'ICE', 'GM', 'EW', 'DUK', 'SO', 'REGN', 'PGR', 'HUM', 'PSA'  # Add your other tickers here
+    'EQIX', 'ICE', 'GM', 'EW', 'DUK', 'SO', 'REGN', 'PGR', 'HUM', 'PSA'
 ]
 
 def fetch_financial_data(tickers):
-    # Initialize empty DataFrames for each financial statement
+   
     ttm_income_statement_data = pd.DataFrame()
     ttm_balance_sheet_data = pd.DataFrame()
     ttm_cash_flow_data = pd.DataFrame()
 
-    # Loop through each ticker
     for ticker in tickers:
         print(f'Fetching financial data for {ticker}...')
         try:
@@ -82,7 +81,6 @@ def fetch_financial_data(tickers):
         except Exception as e:
             print(f'Error fetching data for {ticker}: {e}')
 
-    # Reset the indexes and reorder columns
     for df, filename in zip([ttm_income_statement_data, ttm_balance_sheet_data, ttm_cash_flow_data],
                             ['ttm_income_statement_data.csv', 'ttm_balance_sheet_data.csv', 'ttm_cash_flow_data.csv']):
         df.reset_index(drop=True, inplace=True)
@@ -92,9 +90,7 @@ def fetch_financial_data(tickers):
         # Rename columns to lower case with underscores
         df.columns = df.columns.str.lower().str.replace(' ', '_')
 
-        # Save each DataFrame to a separate CSV file
         df.to_csv(filename, index=False)
         print(f'{filename} saved successfully!')
 
-# Call the function to fetch financial data
 fetch_financial_data(tickers)
