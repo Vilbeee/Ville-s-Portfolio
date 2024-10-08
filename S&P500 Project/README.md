@@ -69,13 +69,7 @@ Example 1: Replacing NULL with null in Power Query
 
 ![Replacing NULL with null](https://github.com/user-attachments/assets/e2ca0775-18a2-49f9-aa35-d77018b5d3e2)
 
-
-Example 2: Detecting the right data type in Power Query
-
-![Detecting the right data type](https://github.com/user-attachments/assets/08530f2c-5ec1-479d-959c-a58a8784fd76)
-
-
-Example 3: Creating table in SQL queries to fetch data straight into my server
+Example 2: Creating table in SQL queries to fetch data straight into my server
 
 ```SQL
 CREATE TABLE s_and_p_daily_test
