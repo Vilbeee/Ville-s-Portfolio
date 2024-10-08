@@ -1,0 +1,16 @@
+SELECT ticker,
+ebitda, 
+ebit, 
+total_expenses, 
+diluted_eps, 
+net_income, 
+operating_expense,
+operating_income, 
+operating_revenue, 
+research_and_development, 
+selling_general_and_administration, 
+gross_profit, 
+cost_of_revenue, 
+total_revenue, 
+interest_expense
+FROM income_statement_ttm
