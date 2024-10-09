@@ -1,6 +1,6 @@
 # [S&P500: Stock Data Cleaning & Dashboard Creation]
 
-This is a project I did with the intention of creating a Power BI dashboard, which would be useful for comparing stock data.
+This is a project I did with the intention of creating a Power BI dashboard, useful for quick and easy comparison of stock data.
 
 ### Why this project?
 
