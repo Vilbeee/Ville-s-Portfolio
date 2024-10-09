@@ -394,7 +394,9 @@ Answer: According to the profitability matrix, the companies in the top right qu
 
 I believe I succeeded in my aim to create a dashboard, which can quickly answer questions about financial statements and ratios. My dashboard offers a good arsenal of useful financial ratios and other information, but it should not be used to make one's final decisions on which companies to invest in. Rather this dashboard should be a tool to quickly scan companies and sectors. This way one can weed out the bad stocks quickly and begin to further investigate the seemingly good ones.
 
-I was able to showcase how SQL, Power BI, Python and Excel can be extremely useful tools in one's everyday life. It can be a very helpful tool for people interested in investing as stock data is often quite readily available. I believe I was succesful in showing my personal skills when it comes to making use of these tools as well. 
+While It would have been possible to add numerous other stock KPIs to the dashboard, I wanted to keep it straightforward and simple to use. My dashboard showcases some graphs for historical trend analysis, but the main focus is on KPIs calculated with the trailing twelve months (TTM) data such as price to earnings (P/E), debt to equity (D/E) and return on equity (ROE). This way one can get a quick look into companies' recent profitability and financial health before jumping into the finer details of the company performance.
+
+Doing this project I was able to showcase how SQL, Power BI, Python and Excel can be extremely useful tools in one's everyday life. It can be a very helpful tool for people interested in investing as stock data is often quite readily available. I believe I was succesful in showing my personal skills when it comes to making use of these tools as well. 
 
 #### Limitations and possible improvements
 
