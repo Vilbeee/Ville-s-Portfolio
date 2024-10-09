@@ -245,7 +245,7 @@ WHERE date BETWEEN '2024-05-31' AND '2024-07-31';
 
 * Step 4: Move data to PowerBI and make sure the datatypes and NULL values are correct
 
-Example 1: This image is from Excel Power Query, but it showcases common problems in the transition from SQL to Power BI. Saving files as CSV can lead to headers not being saved, unless a setting is toggled on. The nulls are in the form of NULL and Power Query doesn't detect them. Data needs to be detected after all of these problems have been taken care of.
+Example 1: This image is from Excel Power Query, but it showcases common problems in the transition from SQL to Power BI. Saving files as CSV can lead to headers not being saved, unless a setting is toggled on. The nulls are in the form of "NULL" and Power Query doesn't detect them. Data type needs to be detected after all of these problems have been taken care of.
 
 ![Detecting the right data type](https://github.com/user-attachments/assets/f33cc5ae-7601-454e-8bee-b33d2dab3398)
 
