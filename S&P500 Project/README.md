@@ -4,7 +4,9 @@ This is a project I did with the intention of creating a Power BI dashboard, use
 
 ### Why this project?
 
-As I recently graduated with a master's degree in economics, I wanted to create a project, which would showcase my skills with different data analysis programs such as SQL, Excel and PowerBI. In addition, working with stock data correlates to my personal interests regarding investing and it also showcases my ability to read and understand companies' financial statements.
+One common problem I have faced at the beginning of my investing career is the fact that there are so many different companies and industries to choose from. In addition, for all of the singular companies, there is so much information to dig through. I always wanted to have a way to quickly weed out the bad stocks from the good ones before I begin to dive deeper into the individual companies.
+
+As I recently graduated with a master's degree in economics, I wanted to create a project, which would showcase my skills with different data analysis programs such as SQL, Excel and PowerBI. In addition, working with stock data correlates to my personal interests regarding investing and it also showcases my ability to read and understand companies' financial statements. This is why I thought that the creation of a dashboard where you can quickly compare any amount of stocks of your own choosing, would be extremely fitting.
 
 ### Steps followed
 
