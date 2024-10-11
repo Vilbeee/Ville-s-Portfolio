@@ -101,9 +101,9 @@ I added quick filtering options on all of the graphs as well as using the sector
 
 The dashboard can be navigated using the buttons on the panel on the left side. The buttons are assigned from top to bottom in the order as I described the layout. 
 
-The dashboard can be found and accessed using the .p file found at:
+The dashboard can be found and accessed using the .pbix file found at:
 
-
+https://github.com/Vilbeee/Ville-s-Portfolio/blob/14b7993ccf34c2e69c5c472e6593ae11cdc4e939/ESG%20Project/ESG%20Project.pbix
 
 The entire dashboard can also be seen as a .pdf file at:
 
