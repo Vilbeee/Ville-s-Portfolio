@@ -1,0 +1,12 @@
+Creating Risk Percentile Groups:
+
+Risk Percentile Groups = 
+SWITCH(
+    TRUE(),
+    'S&P500 ESG Risk Ratings Data'[ESG Risk Percentile] <= 20, "1-20",
+    'S&P500 ESG Risk Ratings Data'[ESG Risk Percentile] <= 40, "21-40",
+    'S&P500 ESG Risk Ratings Data'[ESG Risk Percentile] <= 60, "41-60",
+    'S&P500 ESG Risk Ratings Data'[ESG Risk Percentile] <= 80, "61-80",
+    'S&P500 ESG Risk Ratings Data'[ESG Risk Percentile] <= 100, "81-100",
+    "Uncategorized"
+)
