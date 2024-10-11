@@ -107,7 +107,7 @@ https://github.com/Vilbeee/Ville-s-Portfolio/blob/14b7993ccf34c2e69c5c472e6593ae
 
 The entire dashboard can also be seen as a .pdf file at:
 
-
+https://github.com/Vilbeee/Ville-s-Portfolio/blob/455ece78fd6e3d91cbc3bf35c4457349cd4ea9e6/ESG%20Project/ESG%20Project.pdf
 
 ## Part 3. Analysis
 
