@@ -2,9 +2,9 @@
 
 ### Introduction:
 
-It has become quite apparent that sustainability has taken its place as an essential evaluation metric amongst investors. Investors increasingly base their investments using Environmental, Social and Governance (ESG) scores as one of the criteria. Companies that do well related to ESG metrics are often seen as less risky, great for long-term and at good tackling uncertainty. Investing in companies that have proven to make sustainable choices, can also work as a channel for investors to make a positive difference. To make the ESG investing phenomenon a more straightforward process, companies have been given ESG risk ratings based on their environmental, social and governance practices.
+It has become quite apparent that sustainability has taken its place as an essential evaluation metric amongst investors. Investors increasingly base their investments using Environmental, Social and Governance (ESG) scores as one of the criteria. Companies that do well related to ESG metrics are often seen as less risky, great for long-term and good at tackling uncertainty. Investing in companies that have proven to make sustainable choices, can also work as a channel for investors to make a positive difference. To make the ESG investing phenomenon a more straightforward process, companies have been given ESG risk ratings based on their environmental, social and governance practices.
 
-This project focuses on companies in the S&P 500 index. The analysis is done in each of the three main categories of ESG as well as using the total ESG rating of each company. The data will be analysed by each sector as well as by individual companies. The objective is to create a good overview of sustainability amongst the largest companies in the United States. The dataset used in this project was sourced from Kaggle. The data will be prepared and the analysis will be done using Power BI.
+This project focuses on companies in the S&P 500 index. The analysis is done using each of the three main categories of ESG as well as the total ESG rating of each company. The data will be analysed by each sector as well as by individual companies. The objective is to create a good overview of sustainability amongst the largest companies in the United States. The dataset used in this project was sourced from Kaggle. The data will be prepared and the analysis will be done using Power BI.
 
 I will be dividing this project brief into three parts. The first part will consist of the steps taken in the preparation of the data. In the second part I will be explaining some of the steps taken in the creation of the dashboard. In addition I will be showcasing all of the notable features I added in it. The third and final official part will consist of analyzing the data using the visuals in the dashboard I created. Finally I will finish by giving my overall thoughts about the project and discussing its limitations as well as possible areas of improvement. 
 
@@ -101,13 +101,13 @@ I added quick filtering options on all of the graphs as well as using the sector
 
 The dashboard can be navigated using the buttons on the panel on the left side. The buttons are assigned from top to bottom in the order as I described the layout. 
 
-The dashboard can be found and accessed using the .p file found at:
+The dashboard can be found and accessed using the .pbix file found at:
 
-
+https://github.com/Vilbeee/Ville-s-Portfolio/blob/14b7993ccf34c2e69c5c472e6593ae11cdc4e939/ESG%20Project/ESG%20Project.pbix
 
 The entire dashboard can also be seen as a .pdf file at:
 
-
+https://github.com/Vilbeee/Ville-s-Portfolio/blob/455ece78fd6e3d91cbc3bf35c4457349cd4ea9e6/ESG%20Project/ESG%20Project.pdf
 
 ## Part 3. Analysis
 
@@ -159,7 +159,7 @@ And finally looking at the map visual of average total ESG risk score by State, 
 
 ### Conclusion
 
-Based on this dataset S&P 500 is on average quite ESG-investor friendly, but as we could see, there are major differences between sectors and companies. It also became apparent that sectors can often perform well on some criteria and much worse on others. This is why looking at the total ESG risk might not be the wisest way of ESG-investing. Depending on one's investing philosophies and what they deem important, it is important to look at the finer details before making the final decision. It is also good to understand that while ESG-metrics may give one a good glimpse on how a company performs it doesn't always tell the full story. For example a company selling a polluting factory to another company might upgrade their environmental risk score, but it doesn't necessarily decrease pollution as the other company will continue using the factory. This is why it is good to additionaly study the ESG-actions of the companies you may want to invest in.
+Based on this dataset S&P 500 is on average quite ESG-investor friendly, but as we could see, there are major differences between sectors and companies. It also became apparent that sectors can often perform well on some criteria and much worse on others. This is why looking at the total ESG risk might not be the wisest way of ESG-investing. Depending on one's investing philosophies and what they deem important, it is important to look at the finer details before making the final decision. It is also good to understand that while ESG-metrics may give one a good glimpse on how a company performs it doesn't always tell the full story. For example a company selling a polluting factory to another company might upgrade their environmental risk score, but it doesn't necessarily decrease pollution as the other company will continue using the factory. This is why it is good to additionally study the ESG-actions of the companies you may want to invest in.
 
 ### Final thoughts
 
