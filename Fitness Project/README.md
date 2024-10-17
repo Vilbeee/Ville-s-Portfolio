@@ -7,3 +7,5 @@ This project's aim was to practice python and analyze a questionnaire on fitness
 - Short descriptive analysis on the results.
 
 ## Full project can be found in the .ipybnb File
+
+Full project link: https://github.com/Vilbeee/Ville-s-Portfolio/blob/main/Fitness%20Project/Fitness%20Project.ipynb
