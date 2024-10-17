@@ -1,5 +1,5 @@
 # [Fitness Project: Python Data Cleaning & Visualization]
-This project's aim was to practice python and analyze a questionnaire on fitness wearables
+I use Python to analyze and visualize questionaire answers on fitness wearables.
 
 - Python was used to fetch data from a local file.
 - Data was cleaned only using Python.
