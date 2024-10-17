@@ -1,9 +1,9 @@
 # [Fitness Project: Python Data Cleaning & Visualization]
 This project's aim was to practice python and analyze a questionnaire on fitness wearables
 
-*Python was used to fetch data from a local file.
-*Data was cleaned only using Python.
-*Visualization using likert scale plots and bar graphs.
-*Short descriptive analysis on the results.
+- Python was used to fetch data from a local file.
+- Data was cleaned only using Python.
+- Visualization using likert scale plots and bar graphs.
+- Short descriptive analysis on the results.
 
 ## Full project can be found in the .ipybnb File
