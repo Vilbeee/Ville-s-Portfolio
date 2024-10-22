@@ -119,13 +119,13 @@ Firstly we can see that the overall average ESG risk score is 21,53 and the medi
 
 ![total average sector](https://github.com/user-attachments/assets/590fd38a-d828-42ce-b663-2139f67ad39a)
 
-While the sector average is much higher than the overall average, we can see that there are still some potentially good companies even by ESG metrics, if we sort the dashboard by the energy sector. Both Kinder Morganm Inc. and Schlumberger Limited are under the overall average score and place in the low category and the low end of the medium category based on risk level. Based on purely ESG metrics, these two companies could be potentially good investment options as they outperform their sector.
+While the sector average is much higher than the overall average, we can see that there are still some potentially good companies even by ESG metrics, if we sort the dashboard by the energy sector. Both Kinder Morgan Inc. and Schlumberger Limited are under the overall average score and place in the low category and the low end of the medium category based on risk level. Based on purely ESG metrics, these two companies could be potentially good investment options as they outperform their sector.
 
 ![ESG total energy](https://github.com/user-attachments/assets/dc5936b0-45c1-45fb-9661-450dafccc7d7)
 
 When looking at the bottom 10 scores sorting by company, we can see that almost half of the companies come from the technology sector, a third come from the real estate sector and the rest come from consumer cyclical and communication services sectors. The technology and real estate sectors stand out as the two major outperformers when it comes to ESG scores and should be quite safe bets to an ESG-investor.
 
-### Environmenta, Social and Governance
+### Environmental, Social and Governance
 
 While the total ESG risk score gives a good overview of the sectors and the companies, It doesn't necessarily tell the full story. If a company is doing great on two of the three categories of ESG, but perform much worse than average on the last criteria, It should raise some concern in the investors. 
 
