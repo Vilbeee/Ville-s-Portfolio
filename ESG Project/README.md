@@ -1,4 +1,4 @@
-# [S&P 500 ESG Project: Power BI dashboard creation
+# [S&P 500 ESG Project: PowerQuery data preparation and Power BI dashboard creation]
 
 ### Introduction:
 
