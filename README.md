@@ -27,4 +27,10 @@ This project's aim was to practice python and analyze a questionnaire on fitness
 * Visualization using likert scale plots and bar graphs.
 * Short descriptive analysis on the results.
 
+# [Airbnb Project: Exploratory Data Analysis With R: Regression & Visualization]
+
+The aim of this project is to explore Stockholm's Airbnb listings data and analyze it using R. The aim is to view the data from the perspective of a customer as well as an Airbnb host.
+
+### Work in progress
+
 # More to come
